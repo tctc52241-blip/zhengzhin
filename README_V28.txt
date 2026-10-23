@@ -1,0 +1,1 @@
+V28: Upload ALL extracted files to repository root (not the ZIP). Replace old index.html. Verify zhengzhin-entry-v28.png and profile-cat-v28.png exist next to index.html. Clear cache with Ctrl+Shift+R.
