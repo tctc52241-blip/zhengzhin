@@ -1,34 +1,32 @@
-DEV_ZHENGZHIN V31 — THE IPA SPACE
+DEV_ZHENGZHIN V32 — GAMING NEON
 
-CÀI TRÊN GITHUB PAGES / NETLIFY
-Giải nén và tải toàn bộ tệp trong ZIP lên thư mục gốc.
-Giữ nguyên index.html, style.css, app.js, apps.js và thư mục assets.
-Không cần chạy lệnh build hoặc cài thư viện.
+TRIỂN KHAI
+Giải nén, tải toàn bộ nội dung ZIP lên thư mục gốc GitHub Pages hoặc Netlify.
+index.html nằm ngay tại thư mục gốc. Giữ nguyên thư mục assets và các tệp JS/CSS. Không cần build.
 
-NỘI DUNG
-Dữ liệu lấy từ apps.js của bản V29 của bạn, hiện đang trống.
-Liên hệ Telegram: https://t.me/zhengzhin
-Nhạc nền giữ từ V29, phát khi người xem bấm nút Sound.
-Ảnh bìa 3D được tạo mới. Logo và minh họa hướng dẫn được dựng bằng SVG/CSS.
-Không nhập danh mục và liên kết tải của NS Mod vào phiên bản này.
+ẢNH
+assets/cover-zhengzhin.webp: ảnh bìa Zhengzhin IPA Repository bạn gửi.
+assets/profile-bmw-cat.webp: ảnh đại diện chính mèo trước BMW bạn gửi.
+Cả ảnh bìa và ảnh đại diện xuất hiện ở màn hình chào và trang chủ.
 
-THÊM IPA
-Mở apps.js và thêm bản ghi vào window.IPA_APPS. Ví dụ cấu trúc:
-{id:'ten-app', name:'Tên ứng dụng', category:'IPA Apps', version:'1.0', description:'Mô tả', icon:'assets/icon.png', url:'ĐƯỜNG DẪN TẢI THẬT', date:'2026-10-23'}
-Danh mục hỗ trợ: IPA Apps, Games, Công cụ.
-Dùng id cố định cho mỗi ứng dụng để giữ mục yêu thích sau khi đổi thứ tự.
-Không thêm liên kết tải nếu bạn chưa có file thật.
+NHẠC
+assets/music.m4a: phiên bản AAC tối ưu cho iPhone.
+assets/music.mp3: bản dự phòng từ file gốc của bạn.
+Nhấn NHẤN ĐỂ VÀO WEBSITE để vào trang và phát nhạc.
+Chọn Vào không nhạc nếu chưa muốn nghe.
+Nút nhạc nổi cho phép phát, tạm dừng và phát tiếp.
+Nhạc được gọi phát ngay trong thao tác chạm để phù hợp cơ chế phát âm thanh của trình duyệt.
+Nếu máy đang chặn phát hoặc bị gián đoạn, chạm nút Bật nhạc để thử lại.
 
-TÙY CHỈNH
-Màu chính: các biến --bg, --mint trong style.css.
-Ảnh bìa: assets/hero.webp. Logo: assets/logo.svg.
-Nhạc: assets/music.mp3. Telegram: tìm https://t.me/zhengzhin trong index.html và app.js.
-iphone-preview.html: bản xem bố cục trong khung 390 × 844.
+NỘI DUNG VÀ TÙY CHỈNH
+Giữ danh sách apps.js của ZIP gốc (hiện chưa có ứng dụng).
+Liên hệ giữ nguyên: https://t.me/zhengzhin
+Thêm ứng dụng thật trong apps.js theo mẫu có sẵn.
+Màu sắc và màn hình chào: gaming.css. Hành vi chào: gaming.js.
+Điều khiển nhạc: app.js. Không thay đổi đường dẫn khi tải lên host.
+iphone-preview.html xem bố cục 390 x 844.
 
-ĐÃ KIỂM TRA
-Tìm kiếm không dấu, lọc danh mục, lưu/bỏ lưu, bảng chi tiết, xử lý URL không hợp lệ bằng dữ liệu thử; menu, hướng dẫn và bố cục iPhone.
-Dữ liệu thử đã được gỡ khỏi gói phát hành.
-
-ẢNH BÌA
-Tạo bằng công cụ imagegen tích hợp. Tệp: assets/hero.webp.
-Prompt: Premium 3D graphite glass archive cube, luminous mint abstract Z, floating glass file plates, titanium orbit, dark studio, subtle smoke; no devices, no people, no watermark.
+KIỂM TRA
+Đã kiểm tra nút vào trang, vào không nhạc, phát/tạm dừng/phát tiếp; nhạc M4A có thời gian chạy và không báo lỗi trong trình duyệt kiểm tra.
+Đã kiểm tra bố cục iPhone, ảnh bìa đủ khung và ảnh chính, menu, hiệu ứng giảm chuyển động.
+Chưa kiểm tra trực tiếp trên thiết bị iPhone vật lý.
