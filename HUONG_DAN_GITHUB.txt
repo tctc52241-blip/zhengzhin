@@ -1,0 +1,10 @@
+DEV_ZHENGZHIN - GITHUB PAGES
+
+1. Mo repository GitHub > Code.
+2. Xoa cac file web cu o thu muc goc (giu README neu muon).
+3. Giai nen ZIP nay tren Windows.
+4. Add file > Upload files > keo TOAN BO cac file da giai nen (khong tai file ZIP len).
+5. Commit changes, doi Actions xanh, mo website va nhan Ctrl+F5.
+
+Tat ca anh va nhac nam cung cap voi index.html; duong dan trong HTML da duoc chinh tuong ung.
+Bo dem luot xem that can cau hinh Cloudflare Worker rieng, mac dinh hien 0.
