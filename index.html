@@ -277,7 +277,24 @@ body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opa
 @media(min-width:700px){.ns-entry{justify-content:center}.entry-avatar-orbit{width:235px;height:235px}.entry-avatar-orbit img{width:152px;height:152px}.entry-star{transform:rotate(calc(var(--i)*45deg)) translateY(-108px) rotate(calc(var(--i)*-45deg))}}
 @media(max-width:400px){.ns-entry{padding-top:13px}.entry-avatar-orbit{width:188px;height:188px}.entry-avatar-orbit img{width:122px;height:122px}.entry-star{transform:rotate(calc(var(--i)*45deg)) translateY(-86px) rotate(calc(var(--i)*-45deg))}.entry-title{margin-top:17px}.entry-stats>div{min-height:84px}}
 @media(prefers-reduced-motion:reduce){.entry-avatar-orbit img,.entry-ring,.entry-ring:after,.entry-star,.entry-title,.entry-go,.entry-go:before{animation:none!important}}
-</style></head><body>
+</style>
+<style id="v27-cinematic-cover">
+/* V27: cinematic animated entry wallpaper + original BMW cat avatar. */
+#welcome{background:#030711!important;isolation:isolate!important}
+#welcome:after{content:""!important;position:fixed!important;inset:-3%!important;z-index:-1!important;background-image:linear-gradient(180deg,rgba(1,5,18,.12),rgba(1,5,18,.35)),url("./welcome-neon.png")!important;background-position:center center!important;background-size:cover!important;background-repeat:no-repeat!important;opacity:1!important;filter:none!important;animation:v27KenBurns 19s ease-in-out infinite alternate!important;pointer-events:none!important}
+#welcome:before{opacity:.12!important}
+.ns-entry{position:relative;z-index:2}
+.entry-avatar-orbit img,.avatar-image{object-fit:cover!important;object-position:center center!important}
+.entry-avatar-orbit img{border:3px solid #c3eaff;box-shadow:0 0 0 6px #061226,0 0 36px #50baffbb}
+/* Cover image behind the circular cat + BMW portrait on the inner page */
+.profile-hero{padding-top:145px!important;isolation:isolate}
+.profile-hero:after{content:"";position:absolute;top:0;left:0;right:0;height:240px;border-radius:24px;background:linear-gradient(180deg,#05112710 0%,#07132355 68%,#060b16 100%),url("./hero.webp") center 45%/cover no-repeat;border:1px solid #73b9ff55;box-shadow:0 12px 35px #0007;z-index:-1;pointer-events:none}
+.profile-hero .avatar-orbit{z-index:2}
+@keyframes v27KenBurns{from{transform:scale(1.015) translate3d(0,0,0)}to{transform:scale(1.09) translate3d(-1%,.6%,0)}}
+@media(max-width:700px){#welcome:after{background-position:51% center!important;background-size:auto 100%!important}.ns-entry{background:linear-gradient(180deg,#02071355,#02071320 60%,#02071390)}.profile-hero{padding-top:112px!important}.profile-hero:after{height:195px;border-radius:17px;background-position:center}}
+@media(prefers-reduced-motion:reduce){#welcome:after{animation:none!important}}
+</style>
+</head><body>
 <div id="welcome" role="dialog" aria-modal="true" aria-labelledby="welcome-heading">
 <div class="v25-stars" aria-hidden="true"></div>
 <div class="v25-ring" aria-hidden="true"></div>

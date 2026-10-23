@@ -1,0 +1,5 @@
+DEV_ZHENGZHIN V27 - GITHUB PAGES
+1. Giai nen ZIP.
+2. Upload TAT CA file ben trong thu muc vao ROOT repo GitHub, ghi de file cu.
+3. Commit changes, doi Actions xanh, Ctrl+F5.
+4. welcome-neon.png = nen trang chao; profile-cat.png = anh meo BMW tron; hero.webp = anh bia ben trong.
