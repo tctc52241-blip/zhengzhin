@@ -8,12 +8,12 @@ let entered=false;
 function enterWebsite(withMusic){
  if(entered)return;entered=true;
  // Call play synchronously inside this click, before transitions or awaits.
- if(withMusic)startMusic();else audio.pause();
+ if(withMusic)startMusic();else{audio.pause();syncMusic();}
  protectedSections.forEach(el=>el.inert=false);
  document.body.classList.remove('entry-pending');
  entry.classList.add('leaving');
  const finish=()=>{entry.hidden=true;document.querySelector('.header .brand')?.focus({preventScroll:true});};
- if(matchMedia('(prefers-reduced-motion: reduce)').matches)finish();else setTimeout(finish,460);
+ if(!motionAllowed())finish();else setTimeout(finish,460);
 }
 enterButton.addEventListener('click',()=>enterWebsite(true));
 mutedButton.addEventListener('click',()=>enterWebsite(false));
