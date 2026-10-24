@@ -1,10 +1,27 @@
-DEV_ZHENGZHIN - GITHUB PAGES
+DEV_ZHENGZHIN V33.1 — GITHUB PAGES / MỘT FILE
 
-1. Mo repository GitHub > Code.
-2. Xoa cac file web cu o thu muc goc (giu README neu muon).
-3. Giai nen ZIP nay tren Windows.
-4. Add file > Upload files > keo TOAN BO cac file da giai nen (khong tai file ZIP len).
-5. Commit changes, doi Actions xanh, mo website va nhan Ctrl+F5.
+LỖI ĐÃ XÁC ĐỊNH
+GitHub Pages đang thiếu tài nguyên trong thư mục assets: ảnh bìa, ảnh đại diện,
+logo, font và nhạc trả về HTTP 404. HTML, CSS và JavaScript vẫn tồn tại.
 
-Tat ca anh va nhac nam cung cap voi index.html; duong dan trong HTML da duoc chinh tuong ung.
-Bo dem luot xem that can cau hinh Cloudflare Worker rieng, mac dinh hien 0.
+CÁCH SỬA TRÊN REPOSITORY zhengzhin
+1. Giải nén ZIP này trong ứng dụng Tệp.
+2. Trên GitHub, vào repository zhengzhin và thư mục chứa index.html đang chạy.
+3. Chọn Add file → Upload files; chọn đúng index.html vừa giải nén.
+4. Chọn Commit changes để ghi đè index.html cũ trên nhánh dùng cho Pages.
+5. Chờ lần triển khai Pages mới thành công, rồi tải lại trang.
+Không tải nguyên file ZIP lên và không tạo thêm thư mục bọc bên ngoài.
+Giữ các file cũ cũng được; bản index.html này không cần chúng.
+
+BẢN MỘT FILE
+Đã gộp ảnh, logo, font WOFF, CSS, JavaScript, dữ liệu apps.js và nhạc MP3.
+Chỉ cần index.html; không phụ thuộc đường dẫn assets hoặc thư viện bên ngoài.
+Nhạc vẫn chỉ phát sau khi chạm. Bản này tải HTML ban đầu lớn hơn vì chứa cả nhạc.
+Nếu có thể tải thư mục đầy đủ, bản V33 nhiều tệp tải trang đầu nhẹ hơn.
+Danh sách IPA hiện vẫn trống theo mã nguồn hiện có.
+
+CHẠY THỬ
+Mở bằng máy chủ tĩnh: python3 -m http.server 8000
+Sau đó truy cập http://localhost:8000.
+Không cần npm, không cần build.
+Chưa kiểm chứng trực tiếp trên Safari của iPhone vật lý.
