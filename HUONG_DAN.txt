@@ -1,3 +1,8 @@
-Dev_Zhengzhin PRO Motion
+Dev_Zhengzhin PRO MAX Motion
 Giai nen va tai index.html len GitHub Pages hoac Netlify.
 Giu nguyen du lieu va lien ket trong website goc. Khong sao chep file tu NS MOD.
+
+Hieu ung moi: mang hat canvas + aurora, con tro phat sang (chuot), den pha va vien conic tren the,
+nghieng 3D, nut tu tinh, ripple khi cham, tia lua khi luu, bung sang khi vao web,
+chu quet mo + giai ma, nut len dau trang co vong tien do, dong ho goc.
+Tat ca tu dong tat khi bam nut tia sang tren header (hoac khi may bat Giam chuyen dong).
