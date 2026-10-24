@@ -1,8 +1,13 @@
-Dev_Zhengzhin PRO MAX Motion
+Dev_Zhengzhin PRO MAX v2
 Giai nen va tai index.html len GitHub Pages hoac Netlify.
 Giu nguyen du lieu va lien ket trong website goc. Khong sao chep file tu NS MOD.
 
-Hieu ung moi: mang hat canvas + aurora, con tro phat sang (chuot), den pha va vien conic tren the,
-nghieng 3D, nut tu tinh, ripple khi cham, tia lua khi luu, bung sang khi vao web,
-chu quet mo + giai ma, nut len dau trang co vong tien do, dong ho goc.
-Tat ca tu dong tat khi bam nut tia sang tren header (hoac khi may bat Giam chuyen dong).
+CACH SUA NOI DUNG (mo index.html bang trinh soan thao, tim "zz-config"):
+- urgent: dong chay ngang dau trang (de trong = an)
+- socials: them YouTube / TikTok / Discord
+- announcements: thong bao (co the kem nut Sao chep)
+- videos: video huong dan (de trong = an muc Video)
+- newDays: so ngay hien nhan MOI
+
+Them ung dung: sua danh sach window.IPA_APPS (co ghi chu mau ngay trong file).
+So lieu thong ke tinh tu danh sach ung dung that. Khong co so gia.
